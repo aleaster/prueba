@@ -1,0 +1,14 @@
+#test{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}
+
+#test:hover{
+    background-color: blanchedalmond;
+}
+
+#test:hover::first-letter{
+    background-color: cadetblue;
+    font-size: 100px;
+}

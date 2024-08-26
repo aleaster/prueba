@@ -1,0 +1,38 @@
+body{
+    background-color: #831973;
+}
+
+#header{
+    height: 300px;
+    width:100vh;
+    background-color: aqua;
+}
+
+#todo{
+    display: flex;
+}
+
+#prod{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+}
+
+#serv{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+#aside{
+    height: 600px;
+    width: 300px;
+    background-color: orange;
+}
+
+#footer{
+    height: 300px;
+    width: 600px;
+    background-color: aliceblue;
+}
+

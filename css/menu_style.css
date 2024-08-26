@@ -1,0 +1,43 @@
+
+
+div{
+    display: inline-block
+}
+
+h3{
+    display: block;
+}
+
+#ppal{
+    position: absolute;
+    background-image: url("/img/bg_menu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo{
+    position: relative;
+    display: inline;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#men1{
+    display: flex;
+    gap: 10px;
+}
+
+#fasfudCont{
+    right: 20%;
+}
+
+#men2{
+    display: flex;
+    gap: 20px;
+}
+
+#men3{
+    display: flex;
+    gap: 20px;
+}
