@@ -1,17 +1,32 @@
+$color-red: rgba(206, 56, 56, 0.807);
+$ancho:750px;
+
+%menuBottom{
+    background-color: #3ba520;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
 ul{
- list-style: none;
+    border-top: solid;
+    border-bottom: solid;
+    width: calc($ancho/2);
+    list-style: none;
     li{
+       @extend %menuBottom; 
         padding: 15px;
         display: inline-block;
+        &:hover{
+            background-color: $color-red;
+        }
         a{
             text-decoration: none;
             font-size: 16px;
-            color: #444;
+            color: #fffbfb;
         }
     }
 }
-
-$color-red: red;
 
 h1{
     color:$color-red;
