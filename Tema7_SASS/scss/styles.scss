@@ -8,6 +8,8 @@ $ancho:750px;
     
 }
 
+@map:(Juan: "xd.png");
+
 ul{
     border-top: solid;
     border-bottom: solid;
@@ -28,6 +30,3 @@ ul{
     }
 }
 
-h1{
-    color:$color-red;
-}
