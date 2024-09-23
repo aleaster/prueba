@@ -3,21 +3,21 @@ let x;
 // cons es una consante
 const PI=3.141516;
 
-// let starter=0, aux=0, result=0
-// for (let index = 0; index < 100; index++) {
-//     if (starter==0) {
-//         result=starter;
-//         starter=starter+1;
-//         console.log(result);
-//         result=starter
-//         console.log(result)
-//     }else{
-//         aux=starter
-//         starter=result
-//         result=starter+aux
-//         console.log(result)
-//     }
-// }
+let starter=0, aux=0, result=0
+ for (let index = 0; index < 100; index++) {
+     if (starter==0) {
+         result=starter;
+         starter=starter+1;
+         console.log(result);
+         result=starter
+         console.log(result)
+     }else{
+         aux=starter
+         starter=result
+         result=starter+aux
+         console.log(result)
+     }
+ }
 
 for (let index = 0; index < 20; index++) {
     if (index%3==0) {
