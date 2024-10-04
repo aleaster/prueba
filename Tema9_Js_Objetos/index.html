@@ -3,10 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora 100% real</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #result{
+            height: 200px;
+            width: 20vw;
+        }
+
+        #keybord{
+            height: 400px;
+            width: 20vw;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
 </head>
 <body>
-    
+
+        <div id="result">
+        </div>
+        <div id="keybord">
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="num">0</button>
+            <button class="act" id="mas">+</button>
+            <button class="act" id="menos">-</button>
+            <button class="act" id="por">*</button>
+            <button class="act" id="entre">/</button>
+            <button class="act" id="iwal">=</button>
+        </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
